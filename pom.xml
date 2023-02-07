@@ -35,6 +35,21 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+	<distributionManagement>
+	
+	    <repository>
+	      <id>nexus</id>
+	      <name>Mithun Technologies Releases Nexus Repository</name>
+	      <url>http://52.66.252.56:8081/repository/developer-release/</url>
+	    </repository>
+	    
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>Mithun Technologies Snapshot Nexus Repository </name>
+	      <url>http://52.66.252.56:8081/repository/developer-snapshot/</url>
+	    </snapshotRepository>
+	    
+	</distributionManagement>
 
   <build>
     <finalName>pavan_webapps</finalName>
